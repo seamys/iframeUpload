@@ -1,0 +1,28 @@
+{
+  "name": "iframeUpload examples",
+  "description": "How to use iframeUpload to uploading diff type of file",
+  "main": "app.js",
+  "authors": [
+    "seamys"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "jquery",
+    "upload",
+    "files"
+  ],
+  "moduleType": [],
+  "homepage": "http://www.frllk.com/iframeUpload",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "iframeUpload": ">=1.0.1",
+    "Jcrop": ">=2.0.4"
+  }
+}
