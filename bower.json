@@ -1,0 +1,33 @@
+{
+    "name": "iframeUpload",
+    "description": "The simplest jQuery upload plugin",
+    "main": "dist/jquery.iframeUpload.min.js",
+    "authors": [
+        "seamys(yiim@foxmail.com)"
+    ],
+    "license": "MIT",
+    "keywords": [
+        "upload",
+        "iframeUpload",
+        "simplest upload",
+        "jquery",
+        "plugin"
+    ],
+    "dependencies": {
+        "jquery": ">=1.6"
+    },
+    "moduleType": [
+        "globals"
+    ],
+    "homepage": "http://www.frllk.com/iframeUpload",
+    "ignore": [
+        "/*.*",
+        "!README.md",
+        "libs",
+        "example",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}

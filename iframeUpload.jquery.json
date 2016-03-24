@@ -1,0 +1,27 @@
+{
+  "name": "iframeUpload",
+  "title": "Iframeupload",
+  "description": "The simplest jQuery upload plugin,
+  "version": "0.1.0",
+  "homepage": "https://github.com/seamys/iframeUpload",
+  "author": {
+    "name": "seamys",
+    "email": "yiim@foxmail.com",
+    "url": "\u001b[A\u001b[Bwww.yiim.com\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D\u001b[frllk.com\u001b[2~"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seamys/iframeUpload.git"
+  },
+  "bugs": "https://github.com/seamys/iframeUpload/issues",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/seamys/iframeUpload/blob/master/LICENSE-MIT"
+    }
+  ],
+  "dependencies": {
+    "jquery": "*"
+  },
+  "keywords": []
+}
