@@ -44,7 +44,7 @@
 
 ## Examples
 
-[nodejs 服务端上传](https://github.com/seamys/iframeUpload/tree/master/example/nodejs)
+[nodejs 服务端上传](https://github.com/seamys/iframeUpload/blob/master/example/README.md)
 
 ## Release History
 
