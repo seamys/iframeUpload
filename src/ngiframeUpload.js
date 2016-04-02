@@ -12,15 +12,12 @@
         return {
             restrict: 'EA',
             scope: {
-                images: '=',
-                thumbsNum: '@'
+                change: '&',
+                url: '@'
             },
             controller: [
                 '$scope',
                 function ($scope) {
-                    $scope.$on('ng-change', function (e, args) {
-                        $scope.openGallery(args.index);
-                    });
                 }
             ],
             templateUrl: function (element, attrs) {
