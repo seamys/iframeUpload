@@ -16,10 +16,17 @@
         return {
             restrict: 'EA',
             scope: {
-                url: '@',
-                callback: '&'
+                images: '=',
+                thumbsNum: '@'
             },
-            replace: true,
+            controller: [
+                '$scope',
+                function ($scope) {
+                    $scope.$on('ng-change', function (e, args) {
+                        $scope.openGallery(args.index);
+                    });
+                }
+            ],
             templateUrl: function (element, attrs) {
                 return attrs.templateUrl || defaults.templateUrl;
             },
