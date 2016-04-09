@@ -30,6 +30,10 @@
 ```
 3.完成
 
+## 使用 bower 安装
+``` sh
+ bower install iframeUpload
+```
 ## 说明文档
 
 参数说明：
